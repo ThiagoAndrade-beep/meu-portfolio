@@ -1,0 +1,685 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #0D0D0D;
+    scroll-behavior: smooth;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+header {
+    background-color: black;
+    padding: 0.5rem;
+    border-bottom: 1px solid #FFD700;
+}
+
+.navBar-tittle {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin-left: 8rem;
+}
+
+.navBar-tittle h1 {
+    font-family: Nunito sans;
+    color: #fff;
+}
+
+.navBar-tittle span {
+    color: #FFD700;
+}
+
+.navBar-tittle img {
+    width: 30px;
+    height: 30px;
+    margin-top: -0.2rem;
+}
+
+.navBar-content ul {
+    display: flex;
+    gap: 4rem;
+    margin-right: 8rem;
+}
+
+.navBar-content li {
+    align-items: center;
+    list-style: none;
+    color: #CCD6F6;
+}
+
+.navBar-content a {
+    color: #ccc;
+    font-size: 18px;
+    font-family: Nunito sans;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mobile-menu-btn {
+    display: none;
+}
+
+.container-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 5rem;
+}
+
+.start-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    width: 1000px;
+}
+
+.start-content-tittle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.start-content h3 {
+    color: #FFD700;
+    font-family: Nunito sans;
+    font-family: 700;
+    font-size: 38px;
+}
+
+.start-content h1 {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-family: 700;
+    font-size: 68px;
+}
+
+.start-content p {
+    color: #CCD6F6;
+    font-family: Nunito sans;
+    font-size: 20px;
+}
+
+.btn-content {
+    width: 20%;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FFD700;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-content a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 700;
+}
+
+.start-img img {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+
+}
+
+#container-aboutMe {
+    background-color: #121212;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Nunito sans;
+}
+
+.aboutMe-tittle {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+    margin-left: 15rem;
+}
+
+.aboutMe-tittle img {
+    width: 15px;
+    height: 15px;
+}
+
+.aboutMe-content {
+    color: #CCD6F6;
+    font-size: 20px;
+    width: 85%;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.aboutMe-hardSkills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 70%;
+    background-color: #0D0D0D;
+    margin-bottom: 5rem;
+    padding: 1.3rem;
+    border-radius: 12px;
+}
+
+.aboutMe-hardSkills div {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #121212;
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.aboutMe-hardSkills img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.aboutMe-hardSkills p {
+    margin: 0;
+}
+
+#projects-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 4rem auto;
+    border-bottom: 1px solid #FFD700;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-family: Nunito sans;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-header img {
+    width: 15px;
+    height: 15px;
+}
+
+.project-container {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    margin-bottom: 8rem;
+}
+
+.carrossel-wrapper {
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 2px 4px 20px rgba(214, 200, 0, 0.3);
+}
+
+.project-carrossel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    aspect-ratio: 13/6; 
+}
+
+.project-carrossel img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrossel-btn {
+    all: unset;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.carrossel-btn:hover {
+    opacity: 1;
+}
+
+.carrossel-btn.prev {
+    left: -3px;
+}
+
+.carrossel-btn.next {
+    right: -3px;
+}
+
+.carrossel-btn i {
+    font-size: 2rem;
+    color: #0D0D0D;
+}
+
+.project-details {
+    flex: 1;
+    max-width: 400px;
+    background: #121212;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.project-details h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 700;
+    margin-bottom: 1rem;
+    font-family: Nunito sans;
+    font-style: italic;
+}
+
+.project-details p {
+    color: #CCD6F6;
+    font-family: Nunito sans;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-size: 18px
+}
+
+
+.project-technologies {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+
+.tech-tag {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-family: Nunito sans;
+}
+
+
+.tech-tag.html {
+    background: #E44D26;
+    color: white;
+}
+
+.tech-tag.react {
+    background: #67BDE1;
+    color: #fff;
+}
+
+.tech-tag.css {
+    background: #264DE4;
+    color: white;
+}
+
+.tech-tag.js {
+    background: #F0DB4F;
+    color: #323330;
+}
+
+.tech-tag.api {
+    background: green;
+    color: white;
+}
+
+.project-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.view-project-btn{
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background: #FFD700;
+}
+
+.view-project-btn a {
+    text-decoration: none;
+    color: #0D0D0D;
+    display: flex;
+    align-items: center;
+}
+
+.view-project-btn i {
+    font-size: 1.5rem;
+}
+
+.view-project-btn:hover {
+    transform: translateY(-3px);
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+.contact-header {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-header h2 {
+    font-family: Nunito sans;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contact-header img {
+    width: 15px;
+    height: 15px;
+}
+
+.contact-socialMedia {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D0D;
+    padding: 2rem 3rem;
+    font-family: Nunito sans;
+    font-weight: 700;
+   height: 150%;
+}
+
+.contact-socialMedia h1  {
+    color: #fff;
+}
+
+.redes  {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.2rem;
+}
+
+.redes a  {
+    text-decoration: none;
+    font-size: 22px;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+.redes i {
+    font-size: 1.2rem;
+}
+
+.linkedin {
+    background-color: #FFD700;
+    padding: 0.7rem;
+    border-radius: 8px; 
+}
+
+.gitHub {
+    background-color: #FFD700;
+    padding: 0.7rem;
+    border-radius: 8px; 
+}
+
+.instagram {
+    background-color: #FFD700;
+    padding: 0.7rem;
+    border-radius: 8px; 
+}
+
+footer {
+    background-color: #121212;
+}
+
+.contato {
+    margin-top: rem;
+    padding: 1rem;
+    justify-content: space-around;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.7;
+    align-items: center;
+    color: #ccc;
+    font-family: Nunito sans;
+    font-weight: 700;
+}
+
+.contato p {
+    color: #fff;
+}
+
+.contato span {
+    color: #FFD700;
+}
+
+.contatos {
+    display: flex;
+    gap: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .navBar-content ul {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: #FFD700;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-right: 1rem;
+      }
+      
+      .navBar-content.mobile-active ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: black;
+        padding: 1rem;
+        z-index: 100;
+      }
+
+      .container-start {
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+      
+      .start-content {
+        width: 100% !important;
+        order: 2; 
+      }
+      
+      .start-img {
+        order: 1; 
+        margin-bottom: 2rem;
+      }
+      
+      .start-img img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+      
+      .btn-content {
+        width: 50%;
+      }
+
+      #container-aboutMe {
+        padding: 1rem;
+      }
+      
+      .aboutMe-tittle {
+        margin-left: 0 !important;
+        justify-content: center;
+      }
+      
+      .aboutMe-hardSkills {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 0.5rem;
+        padding: 0.5rem;
+      }
+      
+      .aboutMe-hardSkills div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+      }
+
+      .project-container {
+        flex-direction: column;
+      }
+      
+      .carrossel-wrapper {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      
+      .project-details {
+        width: 100%;
+        padding: 1rem;
+      }
+      
+      .project-technologies {
+        justify-content: center;
+      }
+
+      .contact-header {
+        margin-left: 0 !important;
+        justify-content: center;
+      }
+      
+      .redes {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .redes div {
+        width: 100%;
+        text-align: center;
+      }
+      
+      .contato {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+      }
+
+      .start-content h1 {
+        font-size: 2.5rem;
+      }
+      
+      .start-content p, .aboutMe-content {
+        font-size: 1rem;
+      }
+      
+      .section-header h2, .contact-header h2 {
+        font-size: 1.8rem;
+      }
+}
+
+@media (max-width: 500px) {
+
+    .navBar-content ul {
+        display: none;
+      }
+
+      .navBar-tittle h1 {
+        font-size: 1.3rem;
+      }
+
+      .navBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 6rem;
+        gap: 3rem;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: #FFD700;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-right: 1rem;
+      }
+      
+      .navBar-content.mobile-active ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: black;
+        padding: 1rem;
+        z-index: 100;
+      }
+    
+    .aboutMe-hardSkills {
+      grid-template-columns: 1fr; /* 1 coluna */
+    }
+    
+    .btn-content {
+      width: 80%;
+    }
+  }
+
