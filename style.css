@@ -506,6 +506,11 @@ footer {
     gap: 0.8rem;
 }
 
+.typeScript {
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .navBar-content ul {
         display: none;
