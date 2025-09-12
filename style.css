@@ -574,6 +574,17 @@ footer {
         max-width: 300px;
         height: auto;
       }
+
+      .btn-start {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        align-items: center;
+      }
+
+      .btn-curriculo {
+        width: 80%;
+      }
       
       .btn-content {
         width: 50%;
