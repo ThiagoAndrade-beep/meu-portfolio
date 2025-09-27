@@ -1,436 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu porfólio</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navBar">
-            <div class="navBar-tittle">
-                <h1>THIAGO<span>ANDRADE</span></h1>
-                <img src="./img/formato-html(2).png" alt="img-html">
-            </div>
-            <div class="navBar-content">
-                <button class="mobile-menu-btn">
-                    <i class="bi bi-list"></i>
-                </button>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#container-aboutMe">Sobre mim</a></li>
-                    <li><a href="#projects-section">Meus projetos</a></li>
-                </ul>
-            </div>
+      <div class="navBar">
+        <div class="navBar-tittle">
+          <h1>THIAGO<span>ANDRADE</span></h1>
+          <img src="./img/formato-html(2).png" alt="img-html" />
         </div>
+        <div class="navBar-content">
+          <button class="mobile-menu-btn">
+            <i class="bi bi-list"></i>
+          </button>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#container-aboutMe">Sobre mim</a></li>
+            <li><a href="#projects-section">Meus projetos</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main class="container">
-        <div class="container-start">
-            <div class="start-content">
-                <div class="start-content-tittle">
-                    <h3>Olá, meu nome é</h3>
-                    <h1>Thiago Andrade</h1>
-                </div>
-                <p>- Sou desenvolvedor front-end em formação, com sólida base nas principais tecnologias da área 
-                    e em busca da minha primeira oportunidade como estagiário ou desenvolvedor júnior, para aplicar 
-                    meus conhecimentos na prática e contribuir com soluções digitais úteis no mercado de trabalho.
-                </p>
-                <div class="btn-start">
-                    <button class="btn-content">
-                        <a href="#contact-section">Contato</a>
-                    </button>
+      <div class="container-start">
+        <div class="start-content">
+          <div class="start-content-tittle">
+            <h3>Olá, meu nome é</h3>
+            <h1>Thiago Andrade</h1>
+          </div>
+          <p>
+            - Sou desenvolvedor front-end em formação, com sólida base nas
+            principais tecnologias da área e em busca da minha primeira
+            oportunidade como estagiário ou desenvolvedor júnior, para aplicar
+            meus conhecimentos na prática e contribuir com soluções digitais
+            úteis no mercado de trabalho.
+          </p>
+          <div class="btn-start">
+            <button class="btn-content">
+              <a href="#contact-section">Contato</a>
+            </button>
 
-                    <button class="btn-curriculo">
-                        <a href="curriculo front-end.pdf" download="curriculo front-end.pdf">Meu currículo</a>
-                    </button>
-                </div>
+            <button class="btn-curriculo">
+              <a
+                href="curriculo front-end.pdf"
+                download="curriculo front-end.pdf"
+                >Meu currículo</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="start-img">
+          <img src="./img/img-portfolio.jpeg" alt="" />
+        </div>
+      </div>
 
-            </div>
-            <div class="start-img">
-                <img src="./img/img-portfolio.jpeg" alt="">
-            </div>
+      <div id="container-aboutMe">
+        <h3>Sobre mim</h3>
+
+        <p class="aboutMe-content">
+          - Tenho 18 anos e curso o primeiro ano de Análise e Desenvolvimento de
+          Sistemas. Paralelamente à faculdade, estou me aprofundando nas
+          principais tecnologias da área por meio de cursos online e projetos
+          pessoais. Atualmente, dedico meu tempo a desenvolver aplicações
+          práticas e mais robustas, com o objetivo de consolidar meu aprendizado
+          e evoluir como desenvolvedor. Busco minha primeira oportunidade como
+          estagiário ou desenvolvedor júnior para aplicar meus conhecimentos no
+          mercado e continuar crescendo profissionalmente. <br />
+          <br />
+          - Atualmente atuo como DevOps na devSkin, onde sou responsável pela
+          infraestrutura de projetos profissionais, focando em provisionamento,
+          automação e manutenção de ambientes. Tenho experiência prática com
+          Docker, AWS, Terraform, Git e GitHub Actions, aplicando boas práticas
+          de CI/CD. Já implementei infraestruturas completas com Terraform via
+          pipeline e arquiteturas na AWS envolvendo VPC, ECS, EC2, Load Balancer
+          e bancos de dados, além de construir e publicar imagens no ECR para
+          serviços escaláveis e seguros.
+        </p>
+
+        <h3>Minhas skills</h3>
+        <div class="aboutMe-hardSkills">
+          <div class="html">
+            <img src="./img/html-5.png" alt="logo-html" />
+            <p>Html</p>
+          </div>
+          <div class="css">
+            <img src="./img/css-3.png" alt="logo-css" />
+            <p>Css</p>
+          </div>
+          <div class="js">
+            <img src="./img/js.png" alt="logo-js" />
+            <p>JavaScript</p>
+          </div>
+          <div class="react">
+            <img src="./img/icons8-nativo-de-reagir-48.png" alt="logo-react" />
+            <p>React</p>
+          </div>
+          <div class="docker">
+            <img src="./img/docker.png" alt="logo-docker" />
+            <p>Docker</p>
+          </div>
+          <div class="aws">
+            <img src="./img/icons8-amazon-aws-48.png" alt="logo-aws" />
+            <p>Aws</p>
+          </div>
+          <div class="git">
+            <img src="./img/icons8-git-48.png" alt="logo-git" />
+            <p>Git</p>
+          </div>
+          <div class="terraform">
+            <img src="./img/icons8-terraformar-48.png" alt="logo-terraform" />
+            <p>Terraform</p>
+          </div>
+          <div class="nodeJs">
+            <img src="./img/nodejs.png" alt="logo-nodeJs" />
+            <p>NodeJs</p>
+          </div>
+          <div class="typeScript">
+            <img src="./img/typescript.png" alt="logo-typeScript" />
+            <p>TypeScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="projects-section">
+        <div class="section-header">
+          <img src="./img/jogar(2).png" alt="seta" />
+          <h2>Meus projetos</h2>
         </div>
 
-        <div id="container-aboutMe">
-                <h3>Sobre mim</h3>
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="avanti">
+              <img
+                src="./img/avanti(1).png"
+                alt="Projeto Avanti 1"
+                class="slide"
+              />
+              <img
+                src="./img/avanti(2).png"
+                alt="Projeto Avanti 2"
+                class="slide"
+              />
+              <img
+                src="./img/avanti(3).png"
+                alt="Projeto Avanti 3"
+                class="slide"
+              />
+              <img
+                src="./img/avanti(4).png"
+                alt="Projeto Avanti 4"
+                class="slide"
+              />
+              <img
+                src="./img/avanti(5).png"
+                alt="Projeto Avanti 5"
+                class="slide"
+              />
+              <img
+                src="./img/avanti(6).png"
+                alt="Projeto Avanti 6"
+                class="slide"
+              />
+            </div>
 
-            <p class="aboutMe-content">
-                - Tenho 18 anos e curso o primeiro ano de Análise e Desenvolvimento de Sistemas. 
-                Paralelamente à faculdade, estou me aprofundando nas principais tecnologias da área 
-                por meio de cursos online e projetos pessoais. Atualmente, dedico meu tempo a desenvolver 
-                aplicações práticas e mais robustas, com o objetivo de consolidar meu aprendizado e 
-                evoluir como desenvolvedor. Busco minha primeira oportunidade como estagiário 
-                ou desenvolvedor júnior para aplicar meus conhecimentos no mercado e continuar crescendo profissionalmente. <br>
-                <br>
-                - Atualmente atuo como DevOps na devSkin, onde sou responsável pela infraestrutura de projetos profissionais, 
-                focando em provisionamento, automação e manutenção de ambientes. Tenho experiência prática com Docker, AWS, Terraform, Git e GitHub Actions, 
-                aplicando boas práticas de CI/CD. Já implementei infraestruturas completas com Terraform via pipeline e arquiteturas 
-                na AWS envolvendo VPC, ECS, EC2, Load Balancer e bancos de dados, além de construir e publicar imagens no ECR para serviços escaláveis e seguros.
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>Projeto Avanti</h3>
+            <p>
+              Site institucional moderno e responsivo desenvolvido para empresa
+              Avanti.
             </p>
 
-            <h3>Minhas skills</h3>
-            <div class="aboutMe-hardSkills">
-                <div class="html">
-                    <img src="./img/html-5.png" alt="logo-html">
-                    <p>Html</p>
-                </div>
-                <div class="css">
-                    <img src="./img/css-3.png" alt="logo-css">
-                    <p>Css</p>
-                </div>
-                <div class="js">
-                    <img src="./img/js.png" alt="logo-js">
-                    <p>JavaScript</p>
-                </div>
-                <div class="react">
-                    <img src="./img/icons8-nativo-de-reagir-48.png" alt="logo-react">
-                    <p>React</p>
-                </div>
-                <div class="docker">
-                    <img src="./img/docker.png" alt="logo-docker">
-                    <p>Docker</p>
-                </div>
-                <div class="aws">
-                    <img src="./img/icons8-amazon-aws-48.png" alt="logo-aws">
-                    <p>Aws</p>
-                </div>
-                <div class="git">
-                    <img src="./img/icons8-git-48.png" alt="logo-git">
-                    <p>Git</p>
-                </div>
-                <div class="terraform">
-                    <img src="./img/icons8-terraformar-48.png" alt="logo-terraform">
-                    <p>Terraform</p>
-                </div>
-                <div class="nodeJs">
-                    <img src="./img/nodejs.png" alt="logo-nodeJs">
-                    <p>NodeJs</p>
-                </div>
-                <div class="typeScript">
-                    <img src="./img/typescript.png" alt="logo-typeScript">
-                    <p>TypeScript</p>
-                </div>
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
             </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/projeto-avanti"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
         </div>
 
-
-        <div id="projects-section">
-            <div class="section-header">
-                <img src="./img/jogar(2).png" alt="seta">
-                <h2>Meus projetos</h2>
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/filmes.png"
+                alt="Projeto catalogo de filmes 1"
+                class="slide"
+              />
+              <img
+                src="./img/filmes(2).png"
+                alt="Projeto catalogo de filmes 2"
+                class="slide"
+              />
             </div>
 
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="avanti">
-                        <img src="./img/avanti(1).png" alt="Projeto Avanti 1" class="slide">
-                        <img src="./img/avanti(2).png" alt="Projeto Avanti 2" class="slide">
-                        <img src="./img/avanti(3).png" alt="Projeto Avanti 3" class="slide">
-                        <img src="./img/avanti(4).png" alt="Projeto Avanti 4" class="slide">
-                        <img src="./img/avanti(5).png" alt="Projeto Avanti 5" class="slide">
-                        <img src="./img/avanti(6).png" alt="Projeto Avanti 6" class="slide">
-                    </div>
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
 
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
+          <div class="project-details">
+            <h3>MovieSpace</h3>
+            <p>
+              Projeto funcional que consome uma API de catálogo de filmes, com
+              simulação de cadastro e autenticação de login utilizando
+              localStorage.
+            </p>
 
-                <div class="project-details">
-                    <h3>Projeto Avanti</h3>
-                    <p>Site institucional moderno e responsivo desenvolvido para empresa Avanti.</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/projeto-avanti">Ver projeto <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag api">API</span>
             </div>
 
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/filmes.png" alt="Projeto catalogo de filmes 1" class="slide">
-                        <img src="./img/filmes(2).png" alt="Projeto catalogo de filmes 2" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>MovieSpace</h3>
-                    <p>Projeto funcional que consome uma API de catálogo de filmes, com simulação de cadastro e
-                        autenticação de login utilizando localStorage.</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag api">API</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/catalogo-de-filmes">Ver projeto <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a
+                  href="https://github.com/ThiagoAndrade-beep/catalogo-de-filmes"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
             </div>
-
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/buscar.png" alt="Projeto buscador de github 1" class="slide">
-                        <img src="./img/buscar(2).png" alt="Projeto buscador de github 2" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>Buscar GitHub</h3>
-                    <p>Aplicação em React que integra a API pública do GitHub para realizar buscas por usuários,
-                        retornando dados como avatar e bio.</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag react">React</span>
-                        <span class="tech-tag api">API</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/buscador-github">Ver projeto <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/previsao.png" alt="Projeto previsao do tempo 1" class="slide">
-                        <img src="./img/previsao(2).png" alt="Projeto previsao do tempo 2" class="slide">
-                        <img src="./img/previsao(3).png" alt="Projeto previsao do tempo 3" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>Previsão do tempo</h3>
-                    <p>Projeto que integra APIs de clima e geolocalização para exibir em tempo real a previsão do tempo
-                        com base na localização atual do usuário.</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag api">API</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/previsao-do-tempo">Ver projeto 
-                                <i class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            
-
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/quiz(1).png" alt="Projeto Quiz sobre front 1" class="slide">
-                        <img src="./img/quiz(2).png" alt="Projeto Quiz sobre front 2" class="slide">
-                        <img src="./img/quiz(3).png" alt="Projeto Quiz sobre front 3" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>Quiz sobre Front-End</h3>
-                    <p>Aplicação em React de um quiz, criado para treinar estados, componentes e lógica condicional. O quiz testa conhecimentos em Front-End.</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag react">React</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/quiz-react">Ver projeto 
-                                <i class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/gameSphere(1).png" alt="Projeto gameSphere 1" class="slide">
-                        <img src="./img/gameSphere(2).png" alt="Projeto gameSphere 2" class="slide">
-                        <img src="./img/gameSphere(3).png" alt="Projeto gameSphere 3" class="slide">
-                        <img src="./img/gameSphere(4).png" alt="Projeto gameSphere 4" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>GameSphere</h3>
-                    <p>Aplicação em React que simula um carrinho de compras. Permite adicionar e remover produtos, 
-                        controlar a quantidade, exibir o total e alternar entre a lista de produtos e o carrinho..</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag react">React</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/game-sphere">Ver projeto 
-                                <i class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <div class="carrossel-wrapper">
-                    <div class="project-carrossel" data-carrossel="filmes">
-                        <img src="./img/carteiraApp(1).png" alt="Projeto gameSphere 1" class="slide">
-                        <img src="./img/carteiraApp(2).png" alt="Projeto gameSphere 2" class="slide">
-                        <img src="./img/carteiraApp(3).png" alt="Projeto gameSphere 3" class="slide">
-                        <img src="./img/carteiraApp(4).png" alt="Projeto gameSphere 4" class="slide">
-                    </div>
-
-                    <button class="carrossel-btn prev" aria-label="Imagem anterior">
-                        <i class="bi bi-arrow-left-circle-fill"></i>
-                    </button>
-                    <button class="carrossel-btn next" aria-label="Próxima imagem">
-                        <i class="bi bi-arrow-right-circle-fill"></i>
-                    </button>
-                </div>
-
-                <div class="project-details">
-                    <h3>CarteiraApp</h3>
-                    <p>Aplicação em react desenvolvida com o objetivo de manter o controle financeiro. A aplicação se conecta com um backend fake para fazer requisições http</p>
-
-                    <div class="project-technologies">
-                        <span class="tech-tag html">HTML</span>
-                        <span class="tech-tag css">CSS</span>
-                        <span class="tech-tag js">JavaScript</span>
-                        <span class="tech-tag react">React</span>
-                        <span class="tech-tag html">Req.HTTP</span>
-                        <span class="tech-tag api">BackEnd</span>
-                    </div>
-
-                    <div class="project-actions">
-                        <button class="view-project-btn">
-                            <a href="https://github.com/ThiagoAndrade-beep/carteira-app">Ver projeto 
-                                <i class="bi bi-arrow-right-short"></i></a>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
 
-        <div id="contact-section">
-            <div class="contact-header">
-                <img src="./img/jogar(2).png" alt="seta">
-                <h2>Entre em contato comigo</h2>
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/buscar.png"
+                alt="Projeto buscador de github 1"
+                class="slide"
+              />
+              <img
+                src="./img/buscar(2).png"
+                alt="Projeto buscador de github 2"
+                class="slide"
+              />
             </div>
-            <div class="contact-socialMedia">
-                <h1>Acesse minhas redes:</h1>
-                <div class="redes">
-                    <div class="linkedin">
-                        <i class="bi bi-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/thiagoandrade-dev" target="_blank">Linkedin</a>
-                    </div>
-                    <div class="gitHub">
-                        <i class="bi bi-github"></i>
-                        <a href="https://github.com/ThiagoAndrade-beep" target="_blank">GitHub</a>
-                    </div>
-                    <div class="instagram">
-                        <i class="bi bi-instagram"></i>
-                        <a href="https://www.instagram.com/thiagoandrade_004/" target="_blank">Instagram</a>
-                    </div>
-                </div>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>Buscar GitHub</h3>
+            <p>
+              Aplicação em React que integra a API pública do GitHub para
+              realizar buscas por usuários, retornando dados como avatar e bio.
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag react">React</span>
+              <span class="tech-tag api">API</span>
             </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/buscador-github"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
         </div>
 
-        <footer>
-            <div class="contato">
-                <h1>Outros meios de contato:</h1>
-                <div class="contatos">
-                    <p>Número: <span>(75)982334412</span></p>
-                    <p>Email: <span>thiagopollinho@gmail.com</span></p>
-                </div>
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/previsao.png"
+                alt="Projeto previsao do tempo 1"
+                class="slide"
+              />
+              <img
+                src="./img/previsao(2).png"
+                alt="Projeto previsao do tempo 2"
+                class="slide"
+              />
+              <img
+                src="./img/previsao(3).png"
+                alt="Projeto previsao do tempo 3"
+                class="slide"
+              />
             </div>
-        </footer>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>Previsão do tempo</h3>
+            <p>
+              Projeto que integra APIs de clima e geolocalização para exibir em
+              tempo real a previsão do tempo com base na localização atual do
+              usuário.
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag api">API</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a
+                  href="https://github.com/ThiagoAndrade-beep/previsao-do-tempo"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/quiz(1).png"
+                alt="Projeto Quiz sobre front 1"
+                class="slide"
+              />
+              <img
+                src="./img/quiz(2).png"
+                alt="Projeto Quiz sobre front 2"
+                class="slide"
+              />
+              <img
+                src="./img/quiz(3).png"
+                alt="Projeto Quiz sobre front 3"
+                class="slide"
+              />
+            </div>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>Quiz sobre Front-End</h3>
+            <p>
+              Aplicação em React de um quiz, criado para treinar estados,
+              componentes e lógica condicional. O quiz testa conhecimentos em
+              Front-End.
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag react">React</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/quiz-react"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/gameSphere(1).png"
+                alt="Projeto gameSphere 1"
+                class="slide"
+              />
+              <img
+                src="./img/gameSphere(2).png"
+                alt="Projeto gameSphere 2"
+                class="slide"
+              />
+              <img
+                src="./img/gameSphere(3).png"
+                alt="Projeto gameSphere 3"
+                class="slide"
+              />
+              <img
+                src="./img/gameSphere(4).png"
+                alt="Projeto gameSphere 4"
+                class="slide"
+              />
+            </div>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>GameSphere</h3>
+            <p>
+              Aplicação em React que simula um carrinho de compras. Permite
+              adicionar e remover produtos, controlar a quantidade, exibir o
+              total e alternar entre a lista de produtos e o carrinho..
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag react">React</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/game-sphere"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="filmes">
+              <img
+                src="./img/carteiraApp(1).png"
+                alt="Projeto CarteiraApp 1"
+                class="slide"
+              />
+              <img
+                src="./img/carteiraApp(2).png"
+                alt="Projeto CarteiraApp 2"
+                class="slide"
+              />
+              <img
+                src="./img/carteiraApp(3).png"
+                alt="Projeto CarteiraApp 3"
+                class="slide"
+              />
+              <img
+                src="./img/carteiraApp(4).png"
+                alt="Projeto CarteiraApp 4"
+                class="slide"
+              />
+            </div>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>CarteiraApp</h3>
+            <p>
+              Aplicação em react desenvolvida com o objetivo de manter o
+              controle financeiro. A aplicação se conecta com um backend fake
+              para fazer requisições http
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag react">React</span>
+              <span class="tech-tag html">Req.HTTP</span>
+              <span class="tech-tag api">BackEnd</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/carteira-app"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="carrossel-wrapper">
+            <div class="project-carrossel" data-carrossel="avanti">
+              <img
+                src="./img/edusystem1.png"
+                alt="Projeto EduSystem 1"
+                class="slide"
+              />
+              <img
+                src="./img/edusystem2.png"
+                alt="Projeto EduSystem 2"
+                class="slide"
+              />
+              <img
+                src="./img/edusystem3.png"
+                alt="Projeto EduSystem 3"
+                class="slide"
+              />
+              <img
+                src="./img/edusystem4.png"
+                alt="Projeto EduSystem 4"
+                class="slide"
+              />
+              <img
+                src="./img/edusystem5.png"
+                alt="Projeto EduSystem 5"
+                class="slide"
+              />
+              <img
+                src="./img/edusystem6.png"
+                alt="Projeto EduSystem 6"
+                class="slide"
+              />
+            </div>
+
+            <button class="carrossel-btn prev" aria-label="Imagem anterior">
+              <i class="bi bi-arrow-left-circle-fill"></i>
+            </button>
+            <button class="carrossel-btn next" aria-label="Próxima imagem">
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+
+          <div class="project-details">
+            <h3>Projeto EduSystem</h3>
+            <p>
+              Sistema de cadastro de alunos totalmente funcional, contendo um
+              crud completo com o mongoDB atlas.
+            </p>
+
+            <div class="project-technologies">
+              <span class="tech-tag html">HTML</span>
+              <span class="tech-tag css">CSS</span>
+              <span class="tech-tag js">JavaScript</span>
+              <span class="tech-tag react">React</span>
+              <span class="tech-tag api">NodeJs</span>
+              <span class="tech-tag css">Api REST</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="view-project-btn">
+                <a href="https://github.com/ThiagoAndrade-beep/Edu-System"
+                  >Ver projeto <i class="bi bi-arrow-right-short"></i
+                ></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-section">
+        <div class="contact-header">
+          <img src="./img/jogar(2).png" alt="seta" />
+          <h2>Entre em contato comigo</h2>
+        </div>
+        <div class="contact-socialMedia">
+          <h1>Acesse minhas redes:</h1>
+          <div class="redes">
+            <div class="linkedin">
+              <i class="bi bi-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/thiagoandrade-dev"
+                target="_blank"
+                >Linkedin</a
+              >
+            </div>
+            <div class="gitHub">
+              <i class="bi bi-github"></i>
+              <a href="https://github.com/ThiagoAndrade-beep" target="_blank"
+                >GitHub</a
+              >
+            </div>
+            <div class="instagram">
+              <i class="bi bi-instagram"></i>
+              <a
+                href="https://www.instagram.com/thiagoandrade_004/"
+                target="_blank"
+                >Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="contato">
+          <h1>Outros meios de contato:</h1>
+          <div class="contatos">
+            <p>Número: <span>(75)982334412</span></p>
+            <p>Email: <span>thiagopollinho@gmail.com</span></p>
+          </div>
+        </div>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>
